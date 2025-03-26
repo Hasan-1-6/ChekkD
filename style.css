@@ -1,0 +1,133 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.366);
+    height: 50px;
+    display: flex;
+    padding-left: 80px;
+    justify-content: left;
+    align-items: center;
+}
+
+.titletext{
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 15px;
+    color: rgb(63, 57, 57);
+    text-align: center;
+}
+
+.inputbox{
+    background-color: rgba(176, 176, 176, 0.127);
+    border: none;
+
+    width: 65%;
+    height: 40px;
+    border-radius: 20px;
+    margin: 0;  
+    padding-left: 20px;   
+}
+
+.inputbox:focus{
+    box-shadow: 0px 0px 14px rgba(104, 182, 255, 0.616);
+    outline: none;
+    transition: 0.3s;
+}
+
+.inputdiv{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.inputbtn{
+    position: absolute;
+    height: 42px;
+    width: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    padding-top: 3px;
+    translate: -50px;
+    background-color: rgb(54, 54, 131);
+    color: white;
+}
+.inputbtn:hover{
+    color: white;
+    background-color:#0033ff;
+    transition: 0.3s;
+}
+
+
+.unordlist{
+    margin: 0px;
+    list-style: none;
+    padding: none;
+}
+
+.unordlist > li{
+    margin: 0px;
+}
+
+.listdiv{
+    background-color: rgba(128, 128, 128, 0.115);
+    border-radius: 4px;
+    min-height: 60vh;
+    max-width: 85vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    padding-top: 20px;
+}
+
+.taskdiv{
+    width: 90%;
+    min-height: 50px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.tasktext{
+    padding-left: 16px;
+}
+
+.taskbtn{
+    background:none;
+    border: none;
+    height: 35px;
+    margin-left: auto;
+    margin-right: 4px;
+    border-radius: 20px;
+}
+
+.taskbtn:hover{
+    color: white;
+    background-color: rgb(0, 250, 25);
+    transition: 0.3s;
+}
+.taskbtn2{
+    background:none;
+    border: none;
+    height: 35px;
+    margin-right: 14px;
+    border-radius: 20px;
+}
+.taskbtn2:hover{
+    color: white;
+    background-color: rgb(255, 40, 40);
+    transition: 0.3s;
+}
+
+.strikethru{
+    text-decoration : line-through;
+}
