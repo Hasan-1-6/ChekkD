@@ -5,6 +5,10 @@ let countForId = 0;
 
 function addTask(){
     let tasktext = inputfield.value
+    if(tasktext == ''){
+        alert('Task cannot be empty!!')
+        return
+    }
     
     const divcont = document.createElement("div")
     divcont.classList.add("taskdiv")
@@ -38,4 +42,5 @@ function addTask(){
 
     divcont.append(spanelem, btn1, btn2)
     listdiv.prepend(divcont) 
+    inputfield.value = ''
 }
